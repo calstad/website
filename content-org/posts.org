@@ -1,0 +1,39 @@
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: post
+#+SEQ_TODO: TODO NEXT DRAFT DONE
+#+OPTIONS:   *:t <:nil timestamp:nil
+#+HUGO_AUTO_SET_LASTMOD: t
+
+* Blog
+** TODO Basic Group Representations in Sage
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: basic_group_representations_in_sage
+   :END:
+*** What is Representation Theory?
+    [[https://en.wikipedia.org/wiki/Representation_theory][Representation theory]] is the science that studies various
+    algebraic objects by investigating how they act on well known and
+    concrete objects, usually vector spaces.  For our current
+    objective we will consider representations of finite groups.  Let
+    $G$ be a finite group, $R$ a unital commutative ring, and $V$ an
+    $R$-module.  In general, a linear representation of $G$ over $R$
+    is a group homomorphism
+    \begin{equation*}
+        \rho: G \rightarrow GL(V)
+    \end{equation*}
+    where $GL(V)$ is the group of all $R$-module isomorphisms $V
+    \rightarrow V$. When $V \cong R^{n}$ is a free $R$-module of rank
+    $n$, $GL(V)$ is isomorphic to the group of invertible $n \times n$
+    matrices with entries in $R$. Since $\rho$ is a group
+    homomorphism, $\rho(gh)$ = $\rho(g)\rho(h)$ for all $g,h$ in $G$
+    and so multiplication in the group is converted to matrix
+    multiplication.
+
+    For our purposes we will restrict ourselves to the case where $R$
+    is the field of complex numbers $\mathbb{C}$ and $V$ is a finite
+    dimensional vector space over $\mathbb{C}$.
+*** Sage
+    [[http://www.sagemath.org][Sage]] is an open source mathematical software system that aims to
+    be an open and free alternative to closed proprietary programs
+    like Mathematica, Maple, Matlab, and Magama.  It provides a
+    coherent [[https://www.python.org][Pythonic]] interface on top of numerous other packages like
+    the computational group theory project [[http://www.gap-system.org][GAP]].
