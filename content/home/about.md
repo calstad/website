@@ -11,17 +11,17 @@ weight = 5
 
 # Hello!
 
-I am a masters student in the [Mathematics
+I am currently a graduate student in the [Mathematics
 Department](http://math.cofc.edu) at the [College of
 Charleston](http://math.cofc.edu), working under the supervision of
-[Ben Cox](http://coxbl.people.cofc.edu).  I am also a software
-engineer at [PokitDok](https://pokitdok.com) where I work on projects
-in machine learning, distributed cryptographic systems, formal
-verification, and everything in between.
+[Ben Cox](http://coxbl.people.cofc.edu).  I am also a
+[Haskell](https://www.haskell.org) engineer at [Seller
+Labs](https://www.sellerlabs.com).
 
-My current research focus is in the higher representation theory
-of finite groups, specifically the categorification of the
-representations of the dihedral and dicyclic groups.  I am also
+My current research project is in algebraic
+[categorification](https://en.wikipedia.org/wiki/Categorification) and
+higher representation theory, especially as it applies to questions in
+[Lie theory](https://en.wikipedia.org/wiki/Lie_theory). I am also
 interested in the applications of computers in pure mathematics
 research, especially the open source mathematics software system
 [Sage](http://www.sagemath.org), as well as the use of proof
